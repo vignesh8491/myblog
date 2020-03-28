@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Title",
-            "content": "This is TEST blog . import numpy as np import pandas as pd from matplotlib import pyplot as plt . data = {&quot;name&quot;:[&#39;a&#39;,&#39;b&#39;,&#39;c&#39;], &quot;age&quot;:[1,2,3]} data = pd.DataFrame(data) data . name age . 0 | a | 1 | . 1 | b | 2 | . 2 | c | 3 | . The below plot shows the histogram of age in the data . Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus sed urna ac volutpat. Nunc dapibus et turpis at varius. Nullam maximus elementum venenatis. Ut mattis porta eros aliquam gravida. Quisque malesuada eleifend nunc nec faucibus. Morbi sed vehicula elit. Aliquam erat volutpat. Donec feugiat diam in porta lobortis. Donec et turpis sed justo consectetur accumsan. Vestibulum orci dui, efficitur vitae ultrices sit amet, pretium eu eros. Praesent eget velit laoreet, maximus eros vel, vehicula ex. Nullam tincidunt tempor metus, non hendrerit dui dictum eget. Proin non euismod massa, et sollicitudin sem. Praesent sed purus risus. . data[&#39;age&#39;].plot(kind=&#39;hist&#39;) plt.show() .",
-            "url": "https://vignesh8491.github.io/myblog/2020/03/28/test_blog.html",
-            "relUrl": "/2020/03/28/test_blog.html",
+            "title": "This is TEST blog",
+            "content": "import numpy as np import pandas as pd from matplotlib import pyplot as plt . data = {&quot;name&quot;:[&#39;a&#39;,&#39;b&#39;,&#39;c&#39;], &quot;age&quot;:[1,2,3]} data = pd.DataFrame(data) data . name age . 0 | a | 1 | . 1 | b | 2 | . 2 | c | 3 | . The below plot shows the histogram of age in the data . Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras maximus sed urna ac volutpat. Nunc dapibus et turpis at varius. Nullam maximus elementum venenatis. Ut mattis porta eros aliquam gravida. Quisque malesuada eleifend nunc nec faucibus. Morbi sed vehicula elit. Aliquam erat volutpat. Donec feugiat diam in porta lobortis. Donec et turpis sed justo consectetur accumsan. Vestibulum orci dui, efficitur vitae ultrices sit amet, pretium eu eros. Praesent eget velit laoreet, maximus eros vel, vehicula ex. Nullam tincidunt tempor metus, non hendrerit dui dictum eget. Proin non euismod massa, et sollicitudin sem. Praesent sed purus risus. . data[&#39;age&#39;].plot(kind=&#39;hist&#39;) plt.show() .",
+            "url": "https://vignesh8491.github.io/myblog/blog/2020/03/28/test_blog.html",
+            "relUrl": "/blog/2020/03/28/test_blog.html",
             "date": " • Mar 28, 2020"
         }
         
