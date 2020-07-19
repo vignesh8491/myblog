@@ -157,12 +157,16 @@ A prior understanding of the Linear regression concept would be much helpful.</p
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Linear-Regression---Gradient-Descent">Linear Regression - Gradient Descent<a class="anchor-link" href="#Linear-Regression---Gradient-Descent"> </a></h3><p>Just to set the context for the rest of the article, we will quickly look into what a linear regression is and how it learns the parameter using gradient descent at a high level. As you know, the linear regression models a linear relationship between the predictors (X1,X2,..) and the target (Y) using a set of parameters (w1,w2,..)</p>
+$$                 
 \begin{equation*}
 yhat = w1*X1 + w2*X2 + b
-\end{equation*}<p>The main objective is to reduce the SSE(Sum of squared errors between) the predicted value y_hat and the target Y which is nothing but the loss function for linear regeression</p>
+\end{equation*}
+$$<p>The main objective is to reduce the SSE(Sum of squared errors between) the predicted value y_hat and the target Y which is nothing but the loss function for linear regeression</p>
+$$
 \begin{equation*}
 loss = \frac{1}{2m}\sum_{i=1}^n (yhat -y)^2
 \end{equation*}
+$$
 </div>
 </div>
 </div>
