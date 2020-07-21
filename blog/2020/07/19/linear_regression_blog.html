@@ -3,9 +3,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>This is Linear regression blog - test1 | fastpages</title>
+<title>Linear Regression - Probabilistic Perspective with Tensorflow and Python | fastpages</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="This is Linear regression blog - test1" />
+<meta property="og:title" content="Linear Regression - Probabilistic Perspective with Tensorflow and Python" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Test blog" />
 <meta property="og:description" content="Test blog" />
@@ -15,12 +15,12 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-07-19T00:00:00-05:00" />
 <script type="application/ld+json">
-{"datePublished":"2020-07-19T00:00:00-05:00","dateModified":"2020-07-19T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://vignesh8491.github.io/myblog/blog/2020/07/19/linear_regression_blog.html"},"description":"Test blog","@type":"BlogPosting","url":"https://vignesh8491.github.io/myblog/blog/2020/07/19/linear_regression_blog.html","headline":"This is Linear regression blog - test1","@context":"https://schema.org"}</script>
+{"datePublished":"2020-07-19T00:00:00-05:00","dateModified":"2020-07-19T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://vignesh8491.github.io/myblog/blog/2020/07/19/linear_regression_blog.html"},"description":"Test blog","@type":"BlogPosting","url":"https://vignesh8491.github.io/myblog/blog/2020/07/19/linear_regression_blog.html","headline":"Linear Regression - Probabilistic Perspective with Tensorflow and Python","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/myblog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://vignesh8491.github.io/myblog/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/myblog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>This is Linear regression blog - test1 | fastpages</title>
+<title>Linear Regression - Probabilistic Perspective with Tensorflow and Python | fastpages</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="This is Linear regression blog - test1" />
+<meta property="og:title" content="Linear Regression - Probabilistic Perspective with Tensorflow and Python" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Test blog" />
 <meta property="og:description" content="Test blog" />
@@ -30,7 +30,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-07-19T00:00:00-05:00" />
 <script type="application/ld+json">
-{"datePublished":"2020-07-19T00:00:00-05:00","dateModified":"2020-07-19T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://vignesh8491.github.io/myblog/blog/2020/07/19/linear_regression_blog.html"},"description":"Test blog","@type":"BlogPosting","url":"https://vignesh8491.github.io/myblog/blog/2020/07/19/linear_regression_blog.html","headline":"This is Linear regression blog - test1","@context":"https://schema.org"}</script>
+{"datePublished":"2020-07-19T00:00:00-05:00","dateModified":"2020-07-19T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://vignesh8491.github.io/myblog/blog/2020/07/19/linear_regression_blog.html"},"description":"Test blog","@type":"BlogPosting","url":"https://vignesh8491.github.io/myblog/blog/2020/07/19/linear_regression_blog.html","headline":"Linear Regression - Probabilistic Perspective with Tensorflow and Python","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -101,7 +101,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">This is Linear regression blog - test1</h1><p class="page-description">Test blog</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-07-19T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Linear Regression - Probabilistic Perspective with Tensorflow and Python</h1><p class="page-description">Test blog</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-07-19T00:00:00-05:00" itemprop="datePublished">
         Jul 19, 2020
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -163,7 +163,7 @@ window.onload = wrap_img;
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Linear-Regression---Probabilistic-Perspective-with-Tensorflow-and-Python">Linear Regression - Probabilistic Perspective with Tensorflow and Python<a class="anchor-link" href="#Linear-Regression---Probabilistic-Perspective-with-Tensorflow-and-Python"> </a></h1><p>Linear regression is one of the basic predictive analysis technique, which models the linear relationship between predictor and the target(continuous variable). With the advent of more robust techniqe like neural networks or tree based methods like random forest/xgboost, linear regression is seldom used now directly. But the concept of linear regression forms the fundamental building blocks of the most sophasticated models and this article provides a different aspect on linear regression. Fundamentally, we are going to look at how the loss function is constructed for linear regression which has a probabilistic connection and different ways to solve the linear regression problem.</p>
+<p>Linear regression is one of the basic predictive analysis technique, which models the linear relationship between predictor and the target(continuous variable). With the advent of more robust techniqe like neural networks or tree based methods like random forest/xgboost, linear regression is seldom used now directly. But the concept of linear regression forms the fundamental building blocks of the most sophasticated models and this article provides a different aspect on linear regression. Fundamentally, we are going to look at how the loss function is constructed for linear regression which has a probabilistic connection and different ways to solve the linear regression problem.</p>
 <p>This article doesnot explain what a linear regression is and so I would be using very simple examples to make the article relevant and easy to understand
 A prior understanding of the Linear regression concept would be much helpful.</p>
 
