@@ -330,7 +330,7 @@ b: 59.407900460204914
 X \sim \mathcal{N}(\mu,\,\sigma^{2})\
 \end{equation*}\begin{equation*}
 pdf(X=x) = \frac{1}{ \sqrt{2\pi\sigma^{2}} }e^{ \frac{-(x-\mu)^2}{ 2 \sigma^{2}} }
-\end{equation*}<p>Now let us visualize the gaussian distribution. The following plots shows a gaussian distribution with mean 30 and standard deviation 10. The second and third plot is the log and negative log of the given distribution. As you can see from the plots, that the negative log gaussian looks like a convex function</p>
+\end{equation*}<p>The following plots shows a gaussian distribution with mean 30 and standard deviation 10. The second and third plot is the log and negative log of the given distribution. As you can see from the plots, that the negative log gaussian is a convex function.</p>
 
 </div>
 </div>
@@ -397,7 +397,7 @@ pdf(X=x) = \frac{1}{ \sqrt{2\pi\sigma^{2}} }e^{ \frac{-(x-\mu)^2}{ 2 \sigma^{2}}
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Now that we have visualized the gaussian distribution, we will next see how this is related to the loss function of a linear regression. But, before that we need to know, one more concept - Maximum likelihood estimation.</p>
+<p>Next, we will look at Maximum likelihood estimation, which sets the probabilistic base for estimating the model parameters w</p>
 <p>The bayes theorem states that,</p>
 \begin{equation*}
 p(x|y) = \frac{p(y|x) p(x)}{p(y)}
@@ -413,7 +413,7 @@ p(w|y;x) \propto p(y|w;x) * p(w)
 \begin{equation*}
 p(w|y;x) \propto p(y|w;x) 
 \end{equation*}</p>
-<p>we want to find the value of w that maximizes the likelihood. And for the linear regression, the likelihood is modelled as gaussian distribution with constant variance.</p>
+<p>For uniform prior, the posterior is directly proportional to likelihood and so , the estimate of w is the value of w that maximises the likelihood and hence it is called maximum likelihood estimation. For linear regression, the likelihood is modelled as gaussian distribution with mean wx+b and constant variance and we need to find the value of w that maximises this gaussian or minimize the negative log of gaussian. Let us derive the negative log gaussian for linear regression,</p>
 \begin{equation*}
 p(y|w;x) \sim \mathcal{N}(\mu,\,\sigma^{2})\
 \end{equation*}\begin{equation*}
@@ -427,8 +427,7 @@ log ( p(y|w;x) ) = log(\frac{1}{ \sqrt{2\pi\sigma^{2}} })+  \frac{-(y-yhat)^2}{ 
 \begin{equation*}
 log ( p(y|w;x) ) =  -\frac{1}{2}(y-yhat)^2
 \end{equation*}</p>
-<p>taking neagtive of the above equation
-since we are maximizing the likelihood, we can ignore the constants,
+<p>taking neagtive of the above equation,
 \begin{equation*}
 neg(log ( p(y|w;x) )) =  \frac{1}{2}(y-yhat)^2
 \end{equation*}</p>
@@ -436,7 +435,7 @@ neg(log ( p(y|w;x) )) =  \frac{1}{2}(y-yhat)^2
 \begin{equation*}
 neg(log ( p(y|w;x) )) = \frac{1}{2m}\sum_{i=1}^n (yhat -y)^2
 \end{equation*}</p>
-<p>As you can see, this is the loss function of linear regression which is nothing but the negative log likelihood of gaussian distribution with mean wx+b and constant variance and from the plot above, we know that the negative log of the gaussian is convex</p>
+<p>As you can see, this is the loss function of linear regression which is nothing but the negative log likelihood of gaussian distribution with mean wx+b and constant variance and from the plot above, we know that the negative log of the gaussian is convex. So when we are trying to optimize the mean square error for linear regression using gradient descent, we are optimizing the negative log of gaussian and since it is convex, we are guaranteed to find the global optima.</p>
 
 </div>
 </div>
