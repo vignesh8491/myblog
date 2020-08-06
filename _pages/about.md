@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About Me
+title: Hi There, This is,
 permalink: /about/
 ---
 
+![]({{ site.baseurl }}/images/banner.png "banner")
