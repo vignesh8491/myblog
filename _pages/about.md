@@ -4,4 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-![]({{ site.baseurl }}/images/vignesh.png " ")
+![]({{ site.baseurl }}/images/Vignesh.png " ")
