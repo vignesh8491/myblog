@@ -4,4 +4,4 @@ title: Hi There, This is,
 permalink: /about/
 ---
 
-![]({{ site.baseurl }}/images/banner.png "banner")
+![]({{ site.baseurl }}/images/vignesh.png " ")
