@@ -33,8 +33,13 @@ permalink: /about/
 
 **Publications**
 
+<p>
 Asha Subramanian, Srinath Srinivasa, Vignesh S, Pawan Kumar.'Semantic Integration of Structured Data Powered by Linked Open Data'. WIMS 2015
+</p>
 
 **Patents**
+<p>
 
 [US Patent, Walmart Ref.4909US01] - End to End Attribute Extraction from Product Images
+
+</p>
