@@ -18,7 +18,9 @@ permalink: /about/
 
 <img src="https://pandas.pydata.org/static/img/pandas_white.svg" alt="pandas" width="100" height="32" align="left" style="background-color:#033382;"/>
 
-<img src="https://numpy.org/images/logos/numpy.svg" alt="Numpy" width="100" height="32" align="left"/>
+<img src="https://numpy.org/images/logos/numpy.svg" alt="Numpy" width="32" height="32" align="left"/>
+
+<img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="32" height="32" align="left"/>
 
 </br>
 
@@ -26,6 +28,8 @@ permalink: /about/
 
 
 <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" alt="git" width="40" height="40" align="left"/>
+
+
 
 
 
