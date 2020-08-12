@@ -22,7 +22,7 @@ permalink: /about/
 
 <img src="https://huggingface.co/front/assets/huggingface_logo.svg" alt="Hugging Face" width="32" height="32" align="left"/>
 
-</br>
+<br>
 
 <img src="https://www.python.org/static/community_logos/python-logo.png" alt="python" width="100" height="32" align="left"/>
 
