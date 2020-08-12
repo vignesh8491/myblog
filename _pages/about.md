@@ -31,6 +31,8 @@ permalink: /about/
 
 </p>
 
+<br>
+
 **Publications**
 
 <p>
