@@ -18,7 +18,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": ". Languages and Frameworks: . .",
+          "content": ". Languages and Frameworks: . &lt;img src=&quot;https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png&quot; alt=&quot;git&quot; width=&quot;40&quot; height=&quot;40&quot; align=&quot;left&quot;x/&gt; &lt;img src=&quot;https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png&quot; alt=&quot;sk-learn&quot; width=&quot;40&quot; height=&quot;40&quot; align=&quot;left&quot;x/&gt; .",
           "url": "https://vignesh8491.github.io/myblog/about/",
           "relUrl": "/about/",
           "date": ""
