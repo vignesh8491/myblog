@@ -33,7 +33,7 @@ permalink: /about/
 
 **Publications**
 
-Asha Subramanian, Srinath Srinivasa, Vignesh S, Pawan Kumar. ’Semantic Integration of Structured Data Powered by Linked Open Data’. WIMS 2015
+Asha Subramanian, Srinath Srinivasa, Vignesh S, Pawan Kumar.'Semantic Integration of Structured Data Powered by Linked Open Data'. WIMS 2015
 
 **Patents**
 
