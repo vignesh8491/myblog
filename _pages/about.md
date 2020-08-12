@@ -20,6 +20,8 @@ permalink: /about/
 
 <img src="https://numpy.org/images/logos/numpy.svg" alt="Numpy" width="100" height="32" align="left"/>
 
+</br>
+
 <img src="https://www.python.org/static/community_logos/python-logo.png" alt="python" width="100" height="32" align="left"/>
 
 
