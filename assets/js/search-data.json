@@ -18,7 +18,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": ". Languages and Frameworks: . .",
+          "content": ". Languages and Frameworks: . &lt;/br&gt; .",
           "url": "https://vignesh8491.github.io/myblog/about/",
           "relUrl": "/about/",
           "date": ""
